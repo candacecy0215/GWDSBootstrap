@@ -7,27 +7,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+
   <link rel="icon" href="" type="image/png">
   <title>Pay as You Feel</title>
 </head>
 
 <body>
 <header>
-    <nav class="navbar p-4 fs-4 bg-warning  bg-opacity-50  navbar-expand-lg 
-    ">
+     <nav class="navbar p-4 fs-4 bg-warning bg-opacity-50  navbar-expand-lg fixed-top"> 
       
       <div class="container-fluid">
         
         <a class="navbar-brand fs-4 fw-bold" href="#">
           <img src="" alt="Logo" width="40" height="40" class=" align-text-center">
           Pay as You Feel</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            
           <span class="navbar-toggler-icon"></span>
+         
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <p class="fs-1">
-          <ul class="navbar-nav">
+       
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+          <div class="offcanvas-body">
+           
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -41,16 +48,19 @@
               <a class="nav-link active" href="#">Contact Us</a>
             </li>
           </ul>
-        
         </div>
-        <form class="d-flex" role="search">
+        </div> 
+        <!-- <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-secondary" type="submit">Search</button>
-          </form>
-        </p>
+          </form> -->
+       
       </div>
+  
       
     </nav>
+
+    
 </header>
     <main>
       <nav>
@@ -59,4 +69,6 @@
         </ul>
       </nav>
     </main>
+    <script src="bootstrap.min.js"></script>
+    <script src="java.js"></script>
 </body>
