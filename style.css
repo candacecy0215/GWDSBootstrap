@@ -1,3 +1,19 @@
-header {
+/* header {
     background-color:#feeaba;
+} */
+body {
+    background-color:#fee1dd;
+}
+nav {
+    background-color:#f1a38c;
+}
+.navbar-toggler{
+    border-color: #4f4f4f;
+}
+footer {
+    background-color: #fcf6b5 ;
+    font-size: 15px;
+    font-style: italic;
+    text-align:center;
+    padding:20px;
 }
