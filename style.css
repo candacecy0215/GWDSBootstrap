@@ -7,8 +7,12 @@ body {
 nav {
     background-color:#f1a38c;
 }
+
 .navbar-toggler{
     border-color: #4f4f4f;
+}
+.offcanvas{
+    background-color: mistyrose;
 }
 footer {
     background-color: #fcf6b5 ;
