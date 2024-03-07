@@ -6,8 +6,19 @@ body {
 }
 nav {
     background-color:#f1a38c;
+   
 }
-
+.navbar-brand{
+    padding-top: 0%;
+    padding-bottom:0%;
+    margin-right: 0%;
+}
+.container-fluid{
+    padding-right: 3%;
+}
+h1{
+    text-align: left;
+}
 .navbar-toggler{
     border-color: #4f4f4f;
 }
@@ -15,9 +26,9 @@ nav {
     background-color: mistyrose;
 }
 footer {
-    background-color: #fcf6b5 ;
+    background-color: #fcc9b5 ;
     font-size: 15px;
     font-style: italic;
     text-align:center;
-    padding:20px;
+   
 }
