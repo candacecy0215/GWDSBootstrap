@@ -17,13 +17,20 @@ nav {
     padding-right: 3%;
 }
 h1{
-    text-align: left;
+    font-size: 40px;
 }
 .navbar-toggler{
     border-color: #4f4f4f;
+    padding:4px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 .offcanvas{
     background-color: mistyrose;
+    
+}
+.offcanvas-end{
+    max-width: fit-content;
 }
 footer {
     background-color: #fcc9b5 ;
