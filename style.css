@@ -5,7 +5,7 @@ body {
     background-color:#fee1dd;
 }
 nav {
-    background-color:#f1a38c;
+    background-color:#f09a80;
    
 }
 .navbar-brand{
@@ -32,8 +32,27 @@ h1{
 .offcanvas-end{
     max-width: fit-content;
 }
+.section-one{
+    background-color:#f2ad9a;
+    
+}
+.section-two{
+    background-color: #f6ad9b;
+    
+    
+}   
+.section-three{
+    background-color: #f8af9a;
+}
+.section-four{
+    background-color: #fabfa7;
+    
+}
+.section-five{
+    background-color: #fcc8b8;
+}
 footer {
-    background-color: #fcc9b5 ;
+    background-color: #f9c9b5 ;
     font-size: 15px;
     font-style: italic;
     text-align:center;
