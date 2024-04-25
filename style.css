@@ -2,7 +2,7 @@
     background-color:#feeaba;
 } */
 body {
-    background-color:#fee1dd;
+    background-color:#fff1dd;
 }
 nav {
     /* background-color:#f09a80; */
@@ -58,4 +58,15 @@ footer {
     font-style: italic;
     text-align:center;
    
+}
+h3 {
+    font-size:20px;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    font-size: 35px;
+}
+main {
+    padding:20px;
 }
