@@ -132,3 +132,27 @@ h3{
 h4 {
     font-size: 15px;
 }
+.location {
+    display:flex;
+    padding:5px;
+    flex-wrap:wrap;  
+    flex-direction: column;
+    justify-content:center;
+}
+.Location {
+    font-size: 20px;
+    margin:0;
+    padding-bottom:5px;
+
+}
+.Locationt {
+    font-size:15px;
+    margin:0;
+    padding-left:5px;
+}
+.local {
+    text-align: left;
+    background-color: #fdd5ca;
+    margin: 5px;
+    padding:10px;
+}
