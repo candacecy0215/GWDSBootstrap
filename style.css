@@ -12,10 +12,14 @@ nav {
 .navbar-brand{
     padding-top: 0%;
     padding-bottom:0%;
-    margin-right: 0%;
+    margin: 0%;
 }
 .container-fluid{
     padding-right: 3%;
+
+}
+.img {
+    padding-left: 10%;
 }
 .container {
     display:flex;
@@ -185,4 +189,29 @@ h4 {
     width:100%;
     max-width:900px;
     min-width:300px;
+}
+.menu {
+    width:100%;
+    max-width:900px;
+    text-align: left;
+}
+.Menu {
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    max-width:350px;
+    height:auto; 
+    /*padding-top:20px;*/
+    justify-content: center;
+    
+    
+    align-content: baseline;
+}
+.Menu-grp {
+    display:flex;
+    justify-content:baseline; 
+    
+    flex-wrap:wrap;  
+    flex-direction: column;
+    padding:10px;
 }
