@@ -49,16 +49,16 @@ h1{
 }
 .section-two{
     background-color: #fedad2;
-    padding:10px;
-    margin: 10px;
+    padding:20px;
+    margin-top: 10px;
 }   
 .section-three{
     background-color: #f8af9a;
 }
 .section-four{
     background-color: #fcddd1;
-    padding:10px;
-    margin: 10px;
+    padding:20px;
+    margin-top: 10px;
 }
 .section-five{
     background-color: #fcc8b8;
@@ -83,7 +83,7 @@ footer {
     padding: 5px;
     text-align: center;
     width:100%;
-    max-width:900px; 
+    max-width:1000px; 
 }
 h2{
     font-size: 35px;
@@ -97,7 +97,7 @@ main {
     /* padding: 3px; */
     text-align: center;
     width:100%;
-    max-width:900px;
+    max-width:1000px;
     margin:0;
 }
 h3{
@@ -108,7 +108,7 @@ h3{
     padding: 5px;
     text-align: center;
     width:100%;
-    max-width:900px;
+    max-width:1000px;
 }
 .contact {
     display:flex;
@@ -154,7 +154,7 @@ h3{
     /* padding: 3px; */
     text-align: center;
     width:100%;
-    max-width:900px;
+    max-width:1000px;
 }
 h4 {
     font-size: 18px;
@@ -214,4 +214,8 @@ h4 {
     flex-wrap:wrap;  
     flex-direction: column;
     padding:10px;
+}
+.site{
+    text-align:left;
+    padding-left:0%
 }
