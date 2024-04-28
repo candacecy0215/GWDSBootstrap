@@ -219,3 +219,19 @@ h4 {
     text-align:left;
     padding-left:0%
 }
+.join {
+    display:flex;
+    padding:20px;
+    flex-wrap:wrap;  
+    flex-direction: column;
+    justify-content: space-evenly;
+} 
+.Join {
+    width:100%;
+    max-width:900px;
+    text-align: left;
+    font-size: 20px;   
+}
+/* .joinus {
+
+} */
