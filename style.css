@@ -19,6 +19,9 @@ nav {
 
 }
 .img {
+    width:100%;
+    max-width:280px;
+    height:auto;
     padding-left: 10%;
 }
 .container {
@@ -248,4 +251,7 @@ h4 {
     width:100%;
     max-width:700px;
     height:auto;
+}
+.carousel-item {
+    max-width:1000px;
 }
