@@ -54,6 +54,8 @@ h1{
 }   
 .section-three{
     background-color: #f8af9a;
+    padding:20px;
+    margin-top: 10px;
 }
 .section-four{
     background-color: #fcddd1;
@@ -237,3 +239,8 @@ h4 {
 /* .joinus {
 
 } */
+.menuh{
+    width:100%;
+    max-width:900px;
+    height:auto;
+}
