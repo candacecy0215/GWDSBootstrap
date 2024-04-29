@@ -2,7 +2,7 @@
     background-color:#feeaba;
 } */
 body {
-    background-color:#fff1dd;
+    background-color:#fbe3c4;
 }
 nav {
     /* background-color:#f09a80; */
@@ -40,7 +40,7 @@ h1{
     padding-right: 8px;
 }
 .offcanvas{
-    background-color: mistyrose;
+    background-color: #fbe5d1;
     
 }
 .offcanvas-end{
@@ -73,7 +73,7 @@ h1{
     justify-content: center;
 }
 footer {
-    background-color: #f9c9b5 ;
+    background-color: #fde7d2 ;
     font-size: 15px;
     font-style: italic;
     text-align:center;
@@ -135,7 +135,7 @@ h3{
     text-align: center;
     background-color: #f2ad9a;
     margin:0;
-    max-width:400px;
+    max-width:800px;
 }
 .foodbox {
     display:flex;
@@ -192,9 +192,9 @@ h4 {
 }
 .local {
     text-align: left;
-    background-color: #fdd5ca;
+    background-color: #fdb68a;
     margin: 5px;
-    padding:10px;
+    padding:5%;
     width:100%;
     max-width:900px;
     min-width:300px;
